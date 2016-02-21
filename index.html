@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chrome-app-samples by YOTOV-LIMITED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Chrome-app-samples</h1>
+      <h2 class="project-tagline">Chrome Apps</h2>
+      <a href="https://github.com/YOTOV-LIMITED/chrome-app-samples" class="btn">View on GitHub</a>
+      <a href="https://github.com/YOTOV-LIMITED/chrome-app-samples/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/YOTOV-LIMITED/chrome-app-samples/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p># Chrome Apps samples</p>
+
+<p>Official samples for Chrome Apps platform. If you want to learn about the platform, you can:</p>
+
+<ol>
+<li>look at the source code of the samples below. Most samples have a "Try it now" button that allows you to install and play with it.</li>
+<li>read the <a href="http://developer.chrome.com/apps">official docs</a>
+</li>
+<li>follow the <a href="http://goo.gl/UHCS8">official Codelab</a> presented at Google I/O</li>
+</ol>
+
+<p>If you have questions, <a href="http://stackoverflow.com/questions/tagged/google-chrome-app">search</a> or <a href="http://stackoverflow.com/questions/ask?tags=google-chrome-app">ask at StackOverflow</a> (observe the google-chrome-app tag) or join the <a href="https://groups.google.com/a/chromium.org/forum/?fromgroups#!forum/chromium-apps">Chromium Apps</a> Google group.</p>
+
+<h1>
+<a id="samples" class="anchor" href="#samples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Samples</h1>
+
+
+
+<table>
+<thead>
+<tr>
+<th>Sample</th>
+<th>API or feature</th>
+<th align="center">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a name="_sample_analytics" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/analytics">analytics</a></td>
+<td>
+<a href="#_feature_storage">storage</a><br> <a href="#mobile-support">ios</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/anfhlhgdnbpnglngmblhkdifdbcepjce"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_appengine-channelapi_app" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/appengine-channelapi/app">appengine-channelapi/app</a></td>
+<td>
+<a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/alieplnmdkoekpkepkfgickpmhhabfkl"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_appsquare" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/appsquare">appsquare</a></td>
+<td>
+<a href="#_feature_geolocation">geolocation</a><br> <a href="#_feature_identity">identity</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/loimmcmmgnhkbppokdpfhlccebcpicld"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_appview_embedded-app" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/appview/embedded-app">appview/embedded-app</a></td>
+<td>
+<a href="#_feature_getUserMedia">getUserMedia</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/mighjnlldblaiimoaidiggecdkobklfe"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_appview_host-app" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/appview/host-app">appview/host-app</a></td>
+<td>
+<a href="#_feature_appview">appview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/gkmjlnhjcdognmniiadfdhdlgdocngda"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_blink1" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/blink1">blink1</a></td>
+<td>
+<a href="#_feature_hid">hid</a><br> <a href="#_feature_usb">usb</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/kcpjgiicabigbjejdjnkflkdkjknkdch"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_bluetooth-samples_battery-service-demo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/bluetooth-samples/battery-service-demo">bluetooth-samples/battery-service-demo</a></td>
+<td>
+<a href="#_feature_bluetooth">bluetooth</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/kllncpgahapecnfkhefffabcemaknamh"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_bluetooth-samples_device-info-demo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/bluetooth-samples/device-info-demo">bluetooth-samples/device-info-demo</a></td>
+<td>
+<a href="#_feature_bluetooth">bluetooth</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/dblimghcclaakknbpajckcamddhjaaai"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_bluetooth-samples_heart-rate-sensor" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/bluetooth-samples/heart-rate-sensor">bluetooth-samples/heart-rate-sensor</a></td>
+<td>
+<a href="#_feature_bluetooth">bluetooth</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/nmlcgjldnboapnjdmllfcdenlljfjanm"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_calculator" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/calculator">calculator</a></td>
+<td>
+<a href="#_feature_clipboard">clipboard</a><br> <a href="#mobile-support">ios</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/pelimflkpjiicnajdjcmekpioacmahkh"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_camera-capture" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/camera-capture">camera-capture</a></td>
+<td>
+<a href="#_feature_getUserMedia">getUserMedia</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ilefapmpngkdnnllcnlcjffipbolhklf"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_clock" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/clock">clock</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_geolocation">geolocation</a><br> <a href="#_feature_richNotifications">richNotifications</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/lhfiglpmnendbchimlikaeachppfonmm"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_context-menu" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/context-menu">context-menu</a></td>
+<td>
+<a href="#_feature_contextMenu">contextMenu</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/biknlgbccocnocjfclpedecpgopjokik"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_dart" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/dart">dart</a></td>
+<td>
+<a href="#_feature_dart">dart</a><br> <a href="#mobile-support">ios</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/pcbbhbaibaphjlbaoahmahgmncbdkeli"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_desktop-capture" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/desktop-capture">desktop-capture</a></td>
+<td>
+<a href="#_feature_desktopCapture">desktopCapture</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/mhkidniocjdaiddjckopkigjmjbadfji"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_dialog-element" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/dialog-element">dialog-element</a></td>
+<td></td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/mikhnkopoddcomlgmcjgfnaccjhibiec"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_diff" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/diff">diff</a></td>
+<td>
+<a href="#_feature_clipboard">clipboard</a><br> <a href="#_feature_fileSystem">fileSystem</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/neifiophhpiohjlhiohlhlekkfokcepk"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_filesystem-access" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/filesystem-access">filesystem-access</a></td>
+<td>
+<a href="#_feature_fileSystem">fileSystem</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ehbhjpchdgepkgjhfkhpkjdbnljedllm"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_frameless-window" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/frameless-window">frameless-window</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hjjdaddngnaofnfjpajdcbdmkegiakec"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_gcm-notifications" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/gcm-notifications">gcm-notifications</a></td>
+<td>
+<a href="#_feature_gcm">gcm</a><br> <a href="#_feature_richNotifications">richNotifications</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/gpededflkpcoehfjpdecdkoiagajloin"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_gdrive" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/gdrive">gdrive</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_identity">identity</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/jpabeekbjicamajjcfejnochhmlbpgjh"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_github-auth" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/github-auth">github-auth</a></td>
+<td>
+<a href="#_feature_identity">identity</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/laolmfhjaobpboigjfbclcphckmjodlp"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_hello-world" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/hello-world">hello-world</a></td>
+<td>
+<a href="#mobile-support">ios</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/nmfpplkdkcbhediajmbhljkafnlahcda"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_hello-world-sync" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/hello-world-sync">hello-world-sync</a></td>
+<td>
+<a href="#_feature_storage">storage</a><br> <a href="#mobile-support">ios</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ajjcafkkflbcealbcfjajolnkogffgcb"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_hid" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/hid">hid</a></td>
+<td>
+<a href="#_feature_hid">hid</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ohndmecdhlgohpibepbboddcoecomnpc"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_identity" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/identity">identity</a></td>
+<td>
+<a href="#_feature_identity">identity</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/oficlfehfenioickohognhdhmmcpceil"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_image-edit" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/image-edit">image-edit</a></td>
+<td>
+<a href="#_feature_fileSystem">fileSystem</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/foibnkkcggahkmckladbmgkajodpcjfh"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_instagram-auth" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/instagram-auth">instagram-auth</a></td>
+<td>
+<a href="#_feature_identity">identity</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/baaenjnmlaejajnalldcecpdafeggelb"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_io2012-presentation" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/io2012-presentation">io2012-presentation</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_getUserMedia">getUserMedia</a><br> <a href="#_feature_serial">serial</a><br> <a href="#_feature_storage">storage</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a name="_sample_io2012-presentation_helloworld" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/io2012-presentation/helloworld">io2012-presentation/helloworld</a></td>
+<td></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a name="_sample_io2012-presentation_servo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/io2012-presentation/servo">io2012-presentation/servo</a></td>
+<td>
+<a href="#_feature_getUserMedia">getUserMedia</a><br> <a href="#_feature_serial">serial</a><br>
+</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a name="_sample_ioio" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/ioio">ioio</a></td>
+<td>
+<a href="#_feature_bluetooth">bluetooth</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hknlnnbpihcamokfeggmahjgldbcpkof"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_keyboard-handler" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/keyboard-handler">keyboard-handler</a></td>
+<td></td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/pcbbaldjljokfnnkphllabnpolciapjc"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_managed-in-app-payments" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/managed-in-app-payments">managed-in-app-payments</a></td>
+<td>
+<a href="#_feature_in-app-payments">in-app-payments</a><br>
+</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a name="_sample_manga-cam" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/manga-cam">manga-cam</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_getUserMedia">getUserMedia</a><br> <a href="#_feature_syncFileSystem">syncFileSystem</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/cnehcenehakkickcnoiaemcpjpaigmbb"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_mdns-browser" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/mdns-browser">mdns-browser</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_sockets">sockets</a><br> <a href="#_feature_systemInfo">systemInfo</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/kipighjpklofchgbdgclfaoccdlghidp"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_media-gallery" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/media-gallery">media-gallery</a></td>
+<td>
+<a href="#_feature_mediaGallery">mediaGallery</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/lidepfgfmameopopgagobnpndcnfgbnk"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_messaging_app1" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/messaging/app1">messaging/app1</a></td>
+<td>
+<a href="#_feature_messaging">messaging</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/mcfaknmahgbmjlbondlciokappnnjbnf"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_messaging_app2" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/messaging/app2">messaging/app2</a></td>
+<td>
+<a href="#_feature_messaging">messaging</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hdligeegpimhdjepakblhneiekccbhol"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_messaging_extension" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/messaging/extension">messaging/extension</a></td>
+<td>
+<a href="#_feature_messaging">messaging</a><br> <a href="#_feature_richNotifications">richNotifications</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ihhkahhkmiddbnfhlglocakcdfbgddkj"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_mini-code-edit" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/mini-code-edit">mini-code-edit</a></td>
+<td>
+<a href="#_feature_commands">commands</a><br> <a href="#_feature_contextMenu">contextMenu</a><br> <a href="#_feature_fileSystem">fileSystem</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/inbjbbebnhailhhkfaaokegkfjlmgabb"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_multicast" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/multicast">multicast</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_messaging">messaging</a><br> <a href="#_feature_sockets">sockets</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/bnheobjndkaipbloffigkiddhcbblihl"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_one-time-payment" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/one-time-payment">one-time-payment</a></td>
+<td>
+<a href="#_feature_identity">identity</a><br> <a href="#_feature_storage">storage</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ebcgmmcbgnpoclkoibogeiokfdmjbbob"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_optional-permissions" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/optional-permissions">optional-permissions</a></td>
+<td>
+<a href="#_feature_optionalPermissions">optionalPermissions</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ggkojffeaocnfigijnfbnliopcilipgg"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_parrot-ar-drone" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/parrot-ar-drone">parrot-ar-drone</a></td>
+<td>
+<a href="#_feature_old_sockets">old_sockets</a><br> <a href="#_feature_sockets">sockets</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/lhdfniaagbjbipjmgfbnlbcmlbcgklkh"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_platform-title" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/platform-title">platform-title</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/gdpimhplfcmbiakglpomcdcchbmgfiaj"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_printing" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/printing">printing</a></td>
+<td>
+<a href="#_feature_print">print</a><br> <a href="#_feature_storage">storage</a><br> <a href="#_feature_systemInfo">systemInfo</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/eahldfpkmibbaajaoeifhjeehfgdagdm"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_restarted-demo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/restarted-demo">restarted-demo</a></td>
+<td>
+<a href="#_feature_storage">storage</a><br> <a href="#mobile-support">ios</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ljngdccbopfaompkjfhepllagnijbdne"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_rich-notifications" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/rich-notifications">rich-notifications</a></td>
+<td>
+<a href="#_feature_richNotifications">richNotifications</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/cndmbddaappldijonoekcdfdlhemhejm"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_sandbox" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/sandbox">sandbox</a></td>
+<td>
+<a href="#_feature_sandbox">sandbox</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ipchbpppeafbpnmnjbkljpfhkkiaeikd"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_sandboxed-content" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/sandboxed-content">sandboxed-content</a></td>
+<td>
+<a href="#_feature_sandbox">sandbox</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/gaaeficfcmngmogaejhikdnkdijlpgec"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_serial-control-signals" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/serial-control-signals">serial-control-signals</a></td>
+<td>
+<a href="#_feature_serial">serial</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/gmlopmidlcfikepbnklkochchhehjpak"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_serial_adkjs_app" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/serial/adkjs/app">serial/adkjs/app</a></td>
+<td>
+<a href="#_feature_serial">serial</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ieoiddehfkbacdideciijbdjfjegmpjo"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_serial_espruino" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/serial/espruino">serial/espruino</a></td>
+<td>
+<a href="#_feature_serial">serial</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ghbnaccmkndoembcopnaklidmocbdkfp"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_serial_ledtoggle" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/serial/ledtoggle">serial/ledtoggle</a></td>
+<td>
+<a href="#_feature_serial">serial</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/bdiclhdalonemjdeeaglackjgdboboem"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_servo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/servo">servo</a></td>
+<td>
+<a href="#_feature_getUserMedia">getUserMedia</a><br> <a href="#_feature_serial">serial</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/lhedgapiolhajjkgokaplenafmdppmak"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_storage" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/storage">storage</a></td>
+<td></td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/bpncolcpekidijienghhkibflikohggn"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_syncfs-editor" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/syncfs-editor">syncfs-editor</a></td>
+<td>
+<a href="#_feature_syncFileSystem">syncFileSystem</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ccphiekjjhfnhbmpcbmkmjjhbfhlijkc"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_systemInfo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/systemInfo">systemInfo</a></td>
+<td>
+<a href="#_feature_systemInfo">systemInfo</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/lfkebofdngpbnooppdhiibpdpepgjoch"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_tasks" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/tasks">tasks</a></td>
+<td>
+<a href="#_feature_identity">identity</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/licakmgdnppmfjlkgijcbnobnkoaegko"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_tcpserver" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/tcpserver">tcpserver</a></td>
+<td>
+<a href="#_feature_sockets">sockets</a><br> <a href="#_feature_systemInfo">systemInfo</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ahlcocbkjpjkobcdpjcobmibmpbeecpg"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_telnet" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/telnet">telnet</a></td>
+<td>
+<a href="#_feature_sockets">sockets</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ebckmolcafdmfjbkmamhoacnmmkiohpe"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_text-editor" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/text-editor">text-editor</a></td>
+<td>
+<a href="#_feature_clipboard">clipboard</a><br> <a href="#_feature_fileSystem">fileSystem</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/jkgbibkjioaefdopcdbhjehefhajgadh"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_todomvc" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/todomvc">todomvc</a></td>
+<td>
+<a href="#_feature_alarms">alarms</a><br> <a href="#_feature_fileSystem">fileSystem</a><br> <a href="#_feature_richNotifications">richNotifications</a><br> <a href="#_feature_storage">storage</a><br> <a href="#_feature_syncFileSystem">syncFileSystem</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a name="_sample_tts" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/tts">tts</a></td>
+<td>
+<a href="#_feature_tts">tts</a><br>
+</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a name="_sample_udp" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/udp">udp</a></td>
+<td>
+<a href="#_feature_sockets">sockets</a><br> <a href="#mobile-support">ios</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/okhdmjejphblookgnkabaoaalhcoobec"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_url-handler" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/url-handler">url-handler</a></td>
+<td>
+<a href="#_feature_storage">storage</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/pbokgdgkaaenccneanahifaakldannno"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_usb-label-printer" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/usb-label-printer">usb-label-printer</a></td>
+<td>
+<a href="#_feature_fileSystem">fileSystem</a><br> <a href="#_feature_getUserMedia">getUserMedia</a><br> <a href="#_feature_optionalPermissions">optionalPermissions</a><br> <a href="#_feature_usb">usb</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/fgnncpfphbgfchijmoopegkdhihegfla"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_usb_device-info" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/usb/device-info">usb/device-info</a></td>
+<td>
+<a href="#_feature_usb">usb</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/igkmggljimacfdfalpeelenjeicmfnll"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_usb_knob" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/usb/knob">usb/knob</a></td>
+<td>
+<a href="#_feature_optionalPermissions">optionalPermissions</a><br> <a href="#_feature_usb">usb</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/npiachjbcianljljdlckbnkilpnddnfn"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_weather" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/weather">weather</a></td>
+<td>
+<a href="#_feature_geolocation">geolocation</a><br> <a href="#_feature_storage">storage</a><br> <a href="#mobile-support">ios</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hfgmgghdkhgcklddhfefhdhcpkpmikhi"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_web-store" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/web-store">web-store</a></td>
+<td>
+<a href="#_feature_fileSystem">fileSystem</a><br> <a href="#_feature_identity">identity</a><br> <a href="#_feature_storage">storage</a><br> <a href="#_feature_webstore">webstore</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ndgidogppopohjpghapeojgoehfmflab"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webgl-pointer-lock" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webgl-pointer-lock">webgl-pointer-lock</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br> <a href="#_feature_pointerLock">pointerLock</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/pjfconokbhkicolnaaphhfhjpcgnnfpj"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webserver" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webserver">webserver</a></td>
+<td>
+<a href="#_feature_sockets">sockets</a><br> <a href="#_feature_systemInfo">systemInfo</a><br> <a href="#mobile-support">android</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hflhcpmgeolmjlbmdicgkjedjmkoocbe"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_websocket-server" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/websocket-server">websocket-server</a></td>
+<td>
+<a href="#_feature_old_sockets">old_sockets</a><br> <a href="#mobile-support">ios</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/pkbpddppnkjmlbgliipgmhjeialadokj"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_browser" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/browser">webview-samples/browser</a></td>
+<td>
+<a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/edggnmnajhcbhlnpjnogkjpghaikidaa"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_declarative-web-request" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/declarative-web-request">webview-samples/declarative-web-request</a></td>
+<td>
+<a href="#_feature_storage">storage</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hhflblflkeainajnkamabjibdbfnbilb"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_insert-css" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/insert-css">webview-samples/insert-css</a></td>
+<td>
+<a href="#_feature_storage">storage</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/dnedmnfnnbpgnedogbljhiacgmkbklfj"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_local-resources" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/local-resources">webview-samples/local-resources</a></td>
+<td>
+<a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/nfeplfjagjlljomimjealpedhjgamkle"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_multi-tab-browser" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/multi-tab-browser">webview-samples/multi-tab-browser</a></td>
+<td>
+<a href="#_feature_contextMenu">contextMenu</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/nfcmophndjlljioblddmepjbcfnocnak"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_new-window" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/new-window">webview-samples/new-window</a></td>
+<td>
+<a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/kpgjodoohleggakakpaadgjeedfgeafi"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_new-window-user-agent" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/new-window-user-agent">webview-samples/new-window-user-agent</a></td>
+<td>
+<a href="#_feature_contextMenu">contextMenu</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/jhgiafbilglmngpgkhcmnicfkpfihggo"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_shared-script" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/shared-script">webview-samples/shared-script</a></td>
+<td>
+<a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/cbdacningpambfjjejgfebeagmhpdcko"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_user-agent" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/user-agent">webview-samples/user-agent</a></td>
+<td>
+<a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/fbkdeonndngdbojbccanjnpnlpdmgchc"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_webview-samples_webview" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webview-samples/webview">webview-samples/webview</a></td>
+<td>
+<a href="#_feature_geolocation">geolocation</a><br> <a href="#_feature_getUserMedia">getUserMedia</a><br> <a href="#_feature_pointerLock">pointerLock</a><br> <a href="#_feature_webview">webview</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hnanccpkhjhkkgiipckodmdldeomdohj"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_window-options" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/window-options">window-options</a></td>
+<td>
+<a href="#_feature_fullscreen">fullscreen</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/cfcgoifcnpnadlhhoolkemkjkhoajfmk"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_window-state" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/window-state">window-state</a></td>
+<td>
+<a href="#_feature_fullscreen">fullscreen</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/hcbhfbnaaancmblfhdknlnojpafjohbi"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+<tr>
+<td><a name="_sample_windows" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/windows">windows</a></td>
+<td>
+<a href="#_feature_framelessWindows">framelessWindows</a><br>
+</td>
+<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/ldenchfohdfgggloeimambnckhjpedgc"><img alt="Try it now" src="https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton_small.png" title="Click here to install this sample from the Chrome Web Store"></a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+<h1>
+<a id="samples-by-features" class="anchor" href="#samples-by-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Samples by features</h1>
+
+
+
+<table>
+<thead>
+<tr>
+<th>API or feature</th>
+<th>Samples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a name="_feature_alarms"></a>alarms</td>
+<td><a href="#_sample_todomvc">todomvc</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_appview"></a>appview</td>
+<td><a href="#_sample_appview_host-app">appview_host-app</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_bluetooth"></a>bluetooth</td>
+<td>
+<a href="#_sample_bluetooth-samples_battery-service-demo">bluetooth-samples_battery-service-demo</a> <a href="#_sample_bluetooth-samples_device-info-demo">bluetooth-samples_device-info-demo</a> <a href="#_sample_bluetooth-samples_heart-rate-sensor">bluetooth-samples_heart-rate-sensor</a> <a href="#_sample_ioio">ioio</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_clipboard"></a>clipboard</td>
+<td>
+<a href="#_sample_calculator">calculator</a> <a href="#_sample_diff">diff</a> <a href="#_sample_text-editor">text-editor</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_commands"></a>commands</td>
+<td><a href="#_sample_mini-code-edit">mini-code-edit</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_contextMenu"></a>contextMenu</td>
+<td>
+<a href="#_sample_context-menu">context-menu</a> <a href="#_sample_mini-code-edit">mini-code-edit</a> <a href="#_sample_webview-samples_multi-tab-browser">webview-samples_multi-tab-browser</a> <a href="#_sample_webview-samples_new-window-user-agent">webview-samples_new-window-user-agent</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_dart"></a>dart</td>
+<td><a href="#_sample_dart">dart</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_desktopCapture"></a>desktopCapture</td>
+<td><a href="#_sample_desktop-capture">desktop-capture</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_fileSystem"></a>fileSystem</td>
+<td>
+<a href="#_sample_diff">diff</a> <a href="#_sample_filesystem-access">filesystem-access</a> <a href="#_sample_image-edit">image-edit</a> <a href="#_sample_mini-code-edit">mini-code-edit</a> <a href="#_sample_text-editor">text-editor</a> <a href="#_sample_todomvc">todomvc</a> <a href="#_sample_usb-label-printer">usb-label-printer</a> <a href="#_sample_web-store">web-store</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_framelessWindows"></a>framelessWindows</td>
+<td>
+<a href="#_sample_clock">clock</a> <a href="#_sample_frameless-window">frameless-window</a> <a href="#_sample_gdrive">gdrive</a> <a href="#_sample_io2012-presentation">io2012-presentation</a> <a href="#_sample_manga-cam">manga-cam</a> <a href="#_sample_mdns-browser">mdns-browser</a> <a href="#_sample_multicast">multicast</a> <a href="#_sample_platform-title">platform-title</a> <a href="#_sample_webgl-pointer-lock">webgl-pointer-lock</a> <a href="#_sample_windows">windows</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_fullscreen"></a>fullscreen</td>
+<td>
+<a href="#_sample_window-options">window-options</a> <a href="#_sample_window-state">window-state</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_gcm"></a>gcm</td>
+<td><a href="#_sample_gcm-notifications">gcm-notifications</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_geolocation"></a>geolocation</td>
+<td>
+<a href="#_sample_appsquare">appsquare</a> <a href="#_sample_clock">clock</a> <a href="#_sample_weather">weather</a> <a href="#_sample_webview-samples_webview">webview-samples_webview</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_getUserMedia"></a>getUserMedia</td>
+<td>
+<a href="#_sample_appview_embedded-app">appview_embedded-app</a> <a href="#_sample_camera-capture">camera-capture</a> <a href="#_sample_io2012-presentation">io2012-presentation</a> <a href="#_sample_io2012-presentation_servo">io2012-presentation_servo</a> <a href="#_sample_manga-cam">manga-cam</a> <a href="#_sample_servo">servo</a> <a href="#_sample_usb-label-printer">usb-label-printer</a> <a href="#_sample_webview-samples_webview">webview-samples_webview</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_hid"></a>hid</td>
+<td>
+<a href="#_sample_blink1">blink1</a> <a href="#_sample_hid">hid</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_identity"></a>identity</td>
+<td>
+<a href="#_sample_appsquare">appsquare</a> <a href="#_sample_gdrive">gdrive</a> <a href="#_sample_github-auth">github-auth</a> <a href="#_sample_identity">identity</a> <a href="#_sample_instagram-auth">instagram-auth</a> <a href="#_sample_one-time-payment">one-time-payment</a> <a href="#_sample_tasks">tasks</a> <a href="#_sample_web-store">web-store</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_in-app-payments"></a>in-app-payments</td>
+<td><a href="#_sample_managed-in-app-payments">managed-in-app-payments</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_mediaGallery"></a>mediaGallery</td>
+<td><a href="#_sample_media-gallery">media-gallery</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_messaging"></a>messaging</td>
+<td>
+<a href="#_sample_messaging_app1">messaging_app1</a> <a href="#_sample_messaging_app2">messaging_app2</a> <a href="#_sample_messaging_extension">messaging_extension</a> <a href="#_sample_multicast">multicast</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_old_sockets"></a>old_sockets</td>
+<td>
+<a href="#_sample_parrot-ar-drone">parrot-ar-drone</a> <a href="#_sample_websocket-server">websocket-server</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_optionalPermissions"></a>optionalPermissions</td>
+<td>
+<a href="#_sample_optional-permissions">optional-permissions</a> <a href="#_sample_usb-label-printer">usb-label-printer</a> <a href="#_sample_usb_knob">usb_knob</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_pointerLock"></a>pointerLock</td>
+<td>
+<a href="#_sample_webgl-pointer-lock">webgl-pointer-lock</a> <a href="#_sample_webview-samples_webview">webview-samples_webview</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_print"></a>print</td>
+<td><a href="#_sample_printing">printing</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_richNotifications"></a>richNotifications</td>
+<td>
+<a href="#_sample_clock">clock</a> <a href="#_sample_gcm-notifications">gcm-notifications</a> <a href="#_sample_messaging_extension">messaging_extension</a> <a href="#_sample_rich-notifications">rich-notifications</a> <a href="#_sample_todomvc">todomvc</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_sandbox"></a>sandbox</td>
+<td>
+<a href="#_sample_sandbox">sandbox</a> <a href="#_sample_sandboxed-content">sandboxed-content</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_serial"></a>serial</td>
+<td>
+<a href="#_sample_io2012-presentation">io2012-presentation</a> <a href="#_sample_io2012-presentation_servo">io2012-presentation_servo</a> <a href="#_sample_serial-control-signals">serial-control-signals</a> <a href="#_sample_serial_adkjs_app">serial_adkjs_app</a> <a href="#_sample_serial_espruino">serial_espruino</a> <a href="#_sample_serial_ledtoggle">serial_ledtoggle</a> <a href="#_sample_servo">servo</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_sockets"></a>sockets</td>
+<td>
+<a href="#_sample_mdns-browser">mdns-browser</a> <a href="#_sample_multicast">multicast</a> <a href="#_sample_parrot-ar-drone">parrot-ar-drone</a> <a href="#_sample_tcpserver">tcpserver</a> <a href="#_sample_telnet">telnet</a> <a href="#_sample_udp">udp</a> <a href="#_sample_webserver">webserver</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_storage"></a>storage</td>
+<td>
+<a href="#_sample_analytics">analytics</a> <a href="#_sample_appsquare">appsquare</a> <a href="#_sample_clock">clock</a> <a href="#_sample_diff">diff</a> <a href="#_sample_filesystem-access">filesystem-access</a> <a href="#_sample_gcm-notifications">gcm-notifications</a> <a href="#_sample_hello-world-sync">hello-world-sync</a> <a href="#_sample_image-edit">image-edit</a> <a href="#_sample_io2012-presentation">io2012-presentation</a> <a href="#_sample_multicast">multicast</a> <a href="#_sample_one-time-payment">one-time-payment</a> <a href="#_sample_printing">printing</a> <a href="#_sample_restarted-demo">restarted-demo</a> <a href="#_sample_todomvc">todomvc</a> <a href="#_sample_url-handler">url-handler</a> <a href="#_sample_weather">weather</a> <a href="#_sample_web-store">web-store</a> <a href="#_sample_webview-samples_declarative-web-request">webview-samples_declarative-web-request</a> <a href="#_sample_webview-samples_insert-css">webview-samples_insert-css</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_syncFileSystem"></a>syncFileSystem</td>
+<td>
+<a href="#_sample_manga-cam">manga-cam</a> <a href="#_sample_syncfs-editor">syncfs-editor</a> <a href="#_sample_todomvc">todomvc</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_systemInfo"></a>systemInfo</td>
+<td>
+<a href="#_sample_mdns-browser">mdns-browser</a> <a href="#_sample_printing">printing</a> <a href="#_sample_systemInfo">systemInfo</a> <a href="#_sample_tcpserver">tcpserver</a> <a href="#_sample_webserver">webserver</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_tts"></a>tts</td>
+<td><a href="#_sample_tts">tts</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_usb"></a>usb</td>
+<td>
+<a href="#_sample_blink1">blink1</a> <a href="#_sample_usb-label-printer">usb-label-printer</a> <a href="#_sample_usb_device-info">usb_device-info</a> <a href="#_sample_usb_knob">usb_knob</a>
+</td>
+</tr>
+<tr>
+<td>
+<a name="_feature_webstore"></a>webstore</td>
+<td><a href="#_sample_web-store">web-store</a></td>
+</tr>
+<tr>
+<td>
+<a name="_feature_webview"></a>webview</td>
+<td>
+<a href="#_sample_appengine-channelapi_app">appengine-channelapi_app</a> <a href="#_sample_io2012-presentation">io2012-presentation</a> <a href="#_sample_tcpserver">tcpserver</a> <a href="#_sample_url-handler">url-handler</a> <a href="#_sample_webview-samples_browser">webview-samples_browser</a> <a href="#_sample_webview-samples_declarative-web-request">webview-samples_declarative-web-request</a> <a href="#_sample_webview-samples_insert-css">webview-samples_insert-css</a> <a href="#_sample_webview-samples_local-resources">webview-samples_local-resources</a> <a href="#_sample_webview-samples_multi-tab-browser">webview-samples_multi-tab-browser</a> <a href="#_sample_webview-samples_new-window">webview-samples_new-window</a> <a href="#_sample_webview-samples_new-window-user-agent">webview-samples_new-window-user-agent</a> <a href="#_sample_webview-samples_shared-script">webview-samples_shared-script</a> <a href="#_sample_webview-samples_user-agent">webview-samples_user-agent</a> <a href="#_sample_webview-samples_webview">webview-samples_webview</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<h1>
+<a id="mobile-support" class="anchor" href="#mobile-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mobile support</h1>
+
+<p>You can generate native mobile versions of the samples below using the procedure
+described <a href="https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/README.md">here</a>.</p>
+
+
+
+<table>
+<tr>
+<th width="16%">Sample</th>
+<th width="42%">Android support</th>
+<th width="42%">iOS support</th>
+</tr>
+<tr>
+<td><a name="_mobile_analytics" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/analytics">analytics</a></td>
+<td>Supported.</td>
+<td>Supported.</td>
+</tr>
+<tr>
+<td><a name="_mobile_calculator" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/calculator">calculator</a></td>
+<td>Supported. Visual issues caused by fixed-size layout</td>
+<td>Supported. Visual issues caused by fixed-size layout</td>
+</tr>
+<tr>
+<td><a name="_mobile_dart" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/dart">dart</a></td>
+<td></td>
+<td>Supported. Visual issues caused by fixed-size layout</td>
+</tr>
+<tr>
+<td><a name="_mobile_hello-world" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/hello-world">hello-world</a></td>
+<td>Supported.</td>
+<td>Supported.</td>
+</tr>
+<tr>
+<td><a name="_mobile_hello-world-sync" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/hello-world-sync">hello-world-sync</a></td>
+<td>Supported. sync storage doesn't actually sync - works local</td>
+<td>Supported. sync storage doesn't actually sync - works local</td>
+</tr>
+<tr>
+<td><a name="_mobile_identity" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/identity">identity</a></td>
+<td>Supported. You need to add an Android OAuth app in the Cloud API console of the OAuth project. The app's SHA1 can be the debug one (see more <a href="https://developers.google.com/console/help/new/#installedapplications">here</a>), and the package name is org.chromium.identity.MyApp. If you don't add the Android OAuth app and tries to use the OAuth client-id from the Chrome app, you will get a generic message GoogleAuthException</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="_mobile_parrot-ar-drone" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/parrot-ar-drone">parrot-ar-drone</a></td>
+<td>Supported. Communication to the Drone works, but the UI requires a connected gamepad.</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="_mobile_restarted-demo" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/restarted-demo">restarted-demo</a></td>
+<td></td>
+<td>Supported. Restart must be done via Safari remote debugging.</td>
+</tr>
+<tr>
+<td><a name="_mobile_rich-notifications" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/rich-notifications">rich-notifications</a></td>
+<td>Supported.</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="_mobile_tasks" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/tasks">tasks</a></td>
+<td>Supported.</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="_mobile_todomvc" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/todomvc">todomvc</a></td>
+<td>Supported.</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="_mobile_udp" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/udp">udp</a></td>
+<td></td>
+<td>Supported.</td>
+</tr>
+<tr>
+<td><a name="_mobile_weather" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/weather">weather</a></td>
+<td></td>
+<td>Supported.</td>
+</tr>
+<tr>
+<td><a name="_mobile_webserver" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/webserver">webserver</a></td>
+<td>Supported. Directory picking doesn't work on some versions of Android</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="_mobile_websocket-server" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/websocket-server">websocket-server</a></td>
+<td></td>
+<td>Supported.</td>
+</tr>
+</table>
+
+
+
+<h1>
+<a id="libraries-and-tools" class="anchor" href="#libraries-and-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Libraries and tools</h1>
+
+<ul>
+<li><a href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/libraries/gapi-chrome-apps-lib">Google APIs client library for Chrome Apps</a></li>
+<li><a href="https://github.com/GoogleChrome/chrome-platform-analytics">Google Analytics for Chrome Apps and Extensions</a></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/YOTOV-LIMITED/chrome-app-samples">Chrome-app-samples</a> is maintained by <a href="https://github.com/YOTOV-LIMITED">YOTOV-LIMITED</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-74093198-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
